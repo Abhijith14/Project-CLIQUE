@@ -1,0 +1,129 @@
+
+
+
+
+/*categories*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background: beige;
+  margin: 0;
+  padding: 0;
+  background-color: #edf7fb;
+  transition: all 0.3s;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+  border-radius: 2px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: auto;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: white;
+  margin-top: 50px;
+  transition: all 0.2s;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover {
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+  transform: translate(-5px, -5px);
+}
+
+.card:hover .icon svg {
+  animation: iconjln 1s;
+}
+
+.img-cover {
+  position: relative;
+}
+
+.card img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  padding: 25px;
+  right: 0;
+  border-bottom-left-radius: 20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.desc {
+  padding: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+.desc h1 {
+  display: inline;
+}
+.tdesc {
+  margin-bottom: 40px;
+  width: 100%;
+  height: 50px;
+  overflow: auto;
+}
+
+.desc a {
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  transition: all 0.2s;
+}
+.desc a:hover {
+  background-color: SteelBlue;
+}
+.desc a:hover svg {
+  animation: iconjln 1s;
+}
+
+@keyframes iconjln {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  70% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.post-stats{
+  font-family:"Montserrat", sans-serif;
+}
