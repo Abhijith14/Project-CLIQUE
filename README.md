@@ -13,8 +13,8 @@
 <a href="https://github.com/Abhijith14/Project-CLIQUE" target="_blank">
     <img src="https://img.shields.io/badge/version-v2.0-blue?style=for-the-badge&logo=none" alt="CLIQUE version" />
 </a>&nbsp;
-<a href="https://www.python.org/" target="_blank">
-    <img src="https://img.shields.io/badge/PYTHON-3.6+-00ADD8?style=for-the-badge&logo=python" alt="python version" />
+<a href="https://www.php.net" target="_blank">
+    <img src="https://img.shields.io/badge/PHP-8.1.0+-00ADD8?style=for-the-badge&logo=php" alt="python version" />
 </a>&nbsp;
 <a href="https://github.com/Abhijith14/Project-CLIQUE" target="_blank">
     <img src="https://img.shields.io/badge/Project Type-Website-success?style=for-the-badge&logo=none" alt="project type" />
